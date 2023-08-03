@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/qinxin0720/alisms-go/SmsClient"
+	"github.com/liqingbo/alisms-go/SmsClient"
 )
 
 const (

@@ -5,8 +5,10 @@ import (
 	"crypto/md5"
 	"crypto/sha1"
 	"encoding/base64"
+	"encoding/hex"
 	"errors"
 	"io"
+	"io/ioutil"
 	"math"
 	"math/rand"
 	"net/http"
@@ -16,8 +18,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"io/ioutil"
-	"encoding/hex"
 )
 
 type keepAliveAgent struct {
